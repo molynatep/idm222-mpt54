@@ -1,3 +1,5 @@
+/*FONT SHEET*/
+
 @font-face { 
   font-family: 'montserrat';
   src: url('/fonts/montserrat/Montserrat-Medium.woff2') format('woff2');
@@ -19,11 +21,77 @@
   font-style: normal;
 }
 
-body {
-  margin: 0;
-  border: 0;
+@font-face {
+  font-family: 'bebas';
+  src: url('/fonts/bebas/Bebas-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
-h1, h2, h3, p, li {
+html {
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+/*css reset and font stuff*/
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'montserrat',sans-serif;
+  font-size: .875rem;
+  color: #3D405B;
+}
+
+h1, h2, h3, p {
   font-family: 'montserrat';
+}
+
+/*NAV*/
+
+/*logo*/
+.logo {
+  width: 50px
+ } 
+
+
+nav .logo {
+ display: block;
+ float: left;
+ padding: 1rem 2rem;
+}
+
+/*nav states*/
+a {
+ color: #3D405B;
+ text-decoration: none;
+}
+
+a:hover {
+ color:#84a59d;
+ text-decoration: none;
+}
+
+/*nav style*/
+nav {
+ color: #3D405B;
+ height: 80px;
+ font-family: 'bebas','montserrat', sans-serif;
+ font-size: 1.4rem;
+ position: fixed;
+ width: 100%;
+ background-color: #f7ede2;
+}
+
+/*nav not stacking vertical*/
+ul.menu li {
+  display: inline-flex; 
+  margin-right: 12px;
+  font-size: 1.7rem;
+  line-height: 0;
+}
+
+ul.menu {
+  float: right;
+  padding: .3rem 1rem;
 }
