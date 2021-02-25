@@ -141,6 +141,42 @@ div.intro {
 
 }
 
+.projects { 
+  text-align: center;
+  padding: 1rem;
+}
+
+h4 {
+  font-size: 2.3rem;
+  color: #FF7D7D;
+  margin: 0;
+  }
+
+.pinktext {
+  font-style: italic;
+  color: #F5CAC3;
+  margin: 0;
+}
+
+.itemtext {
+  font-weight: bold;
+  font-size: .87rem;
+  width: 300px;
+  line-height: 1.7;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  justify-items: center;
+}
+
+.item_description {
+  margin: 7rem;
+}
+
+
 /*RESUME & ABOUT FORMATTING*/
 
 .resume,.about,.casestudy {
