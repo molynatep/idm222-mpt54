@@ -43,9 +43,39 @@ body {
   color: #3D405B;
 }
 
-h1, h2, h3, p {
-  font-family: 'montserrat';
+/*css reset*/
+body {
+  padding: 0;
+  margin: 0;
 }
+
+
+h1, h2{
+  font-family: 'bebas','montserrat',sans-serif;
+  color: #3D405B;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 2rem;
+}
+
+h2 {
+  font-size: 1.9rem;
+  margin: 1.4rem 0 .2rem ;
+}
+
+h3 {
+  font-family: 'montserrat',sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #3D405B;
+  margin: .5rem 0 0;
+}
+p {
+  margin: 0 0 1rem;
+}
+
 
 /*NAV*/
 
@@ -53,7 +83,6 @@ h1, h2, h3, p {
 .logo {
   width: 50px
  } 
-
 
 nav .logo {
  display: block;
@@ -110,4 +139,26 @@ div.intro {
   justify-content: center;
   align-items: center;
 
+}
+
+/*RESUME & ABOUT FORMATTING*/
+
+.resume,.about,.casestudy {
+  margin: 5.5rem 2rem 3rem;
+  line-height: 1.9rem;
+  max-width: 600px;
+}
+
+div.center {
+  display:flex;
+  justify-content: center;
+}
+
+.resumetext {
+  display: inline-block;
+}
+
+.dl {
+  width: 30px;
+  padding: 1.9rem .5rem 0;
 }
