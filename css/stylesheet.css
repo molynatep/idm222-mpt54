@@ -169,6 +169,7 @@ h4 {
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  
   justify-items: center;
 }
 
@@ -180,7 +181,8 @@ h4 {
 /*RESUME & ABOUT FORMATTING*/
 
 .resume,.about,.casestudy {
-  margin: 5.5rem 2rem 3rem;
+  margin: 0 2rem 3rem;
+  padding: 5.5rem 0 0;
   line-height: 1.9rem;
   max-width: 600px;
 }
