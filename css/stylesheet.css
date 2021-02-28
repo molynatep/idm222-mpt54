@@ -130,7 +130,7 @@ ul.menu {
 div.intro {
   font-size: 2rem;
   font-weight: bold;
-  line-height: 3.2rem;
+  line-height: 1.6;
   width: 100%;
   height: 100vh;
   background-color: #f7ede2;
@@ -138,7 +138,10 @@ div.intro {
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+p.text {
+  margin: 2.5rem;
 }
 
 .projects { 
@@ -183,7 +186,7 @@ h4 {
 .resume,.about,.casestudy {
   margin: 0 2rem 3rem;
   padding: 5.5rem 0 0;
-  line-height: 1.9rem;
+  line-height: 2;
   max-width: 600px;
 }
 
