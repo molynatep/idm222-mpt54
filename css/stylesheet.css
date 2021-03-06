@@ -110,6 +110,7 @@ nav {
  position: fixed;
  width: 100%;
  background-color: #f7ede2;
+ z-index: 99;
 }
 
 /*nav not stacking vertical*/
@@ -171,13 +172,14 @@ h4 {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   justify-items: center;
 }
 
 .item_description {
-  margin: 7rem;
+  margin: 2rem;
+  position: relative;
+  left: -40px;
 }
 
 
