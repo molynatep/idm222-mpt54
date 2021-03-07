@@ -150,6 +150,8 @@ p.text {
   width: 100%;
 }
 
+/*PROJECTS HOMEPAGE*/
+
 h4 {
   font-size: 2.6rem;
   color: #73818d;
@@ -171,7 +173,6 @@ h4 {
 
 .containers {
   display: grid;
-  grid-template-columns: 1fr;
   justify-items: center;
 }
 
@@ -185,7 +186,7 @@ h4 {
 
 .item_description {
   position: relative;
-  margin: 2rem;
+  margin: 1.5rem 0 4rem;
 }
 
 
