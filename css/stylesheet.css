@@ -194,7 +194,7 @@ h4 {
 /*RESUME & ABOUT FORMATTING*/
 
 .resume,.about,.casestudy {
-  margin: 0 2rem 3rem;
+  margin: 0 2rem 1.8rem;
   padding: 5.5rem 0 0;
   line-height: 2;
   max-width: 600px;
@@ -217,4 +217,50 @@ div.center {
 /*CASE STUDIES*/
 .casestudyheader {
   text-align: center;
+  font-size: 2.3rem;
+}
+
+.casetext {
+  padding: 0 0 2rem;
+}
+
+.casephotos {
+  padding: 0 0 1.5rem;
+  max-width: 600px;
+}
+
+div.casetext > h3 {
+  font-size: 1.5rem;
+  line-height: 0rem;
+  margin-top: 2rem;
+  margin-bottom: 1.1rem;
+}
+
+/*PROJECT-ARROWS*/
+
+div.left p {
+  position: relative;
+  display: inline-block;
+  top: 4.82rem;
+  left: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.arrow-r {
+  position: relative;
+  float: right;
+  right: 15px;
+  width: 28px;
+  padding: 1rem 0;
+  top: 1rem;
+}
+
+div.right p {
+  position: relative;
+  float: right;
+  top: 1.95rem;
+  right: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
 }

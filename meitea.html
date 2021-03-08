@@ -29,9 +29,9 @@
                    images/menu_640.jpg 640w,
                    images/menu_320.jpg 320w"
                    sizes="500px"/>
-          <source srcset= "images/mobilemenu_3x.jpg 3x,
-                          images/mobilemenu_2x.jpg 2x,
-                          images/mobilemenu_1x.jpg 1x" />
+          <source srcset= "images/menu_3x.jpg 3x,
+                          images/menu_2x.jpg 2x,
+                          images/menu_1x.jpg 1x" />
           <img src="images/menu_320.jpg" alt="meiteamenu"/>
           </picture>
       </div>
@@ -43,11 +43,12 @@
           </p>
       </div>
       <div class="center">
-        <img class="projimage" 
-        srcset= "images/oldmenu_medium.jpg 1024w,
-                 images/oldmenu_small.jpg 640w"
-                 sizes="(min-width: 620px) 500px, 75vw"
-        src="images/oldmenu_large.jpg" alt="oldmenu"/>
+        <img srcset="images/oldmenu_large.jpg 1024w,
+                     images/oldmenu_medium.jpg 640w,
+                     images/oldmenu_small.jpg 320w"
+                  sizes="(min-width:600px) 600px, 85vw"
+                  src="images/oldmenu_small.jpg"
+                  alt="old mei tea menu" />
       </div>
       <div class="casetext">
       <h3>WHY REDESIGN?</h3>
@@ -59,12 +60,17 @@
       </p>
       </div>
       <div class="center">
-        <img class="casephotos" src= "images/menuprogress-960.jpg" 
-        srcset="
-        images/menuprogress-320.jpg 1x,
-        images/menuprogress-640.jpg 2x,
-        images/menuprogress-960.jpg 3x"
-        alt="menuprogress"/>
+        <picture>
+          <source media="(min-width: 550px)"
+          srcset= "images/menuprogress-960.jpg 960w,
+                   images/menuprogress-640.jpg 640w,
+                   images/menuprogress-320.jpg 320w"
+                   sizes="500px"/>
+          <source srcset= "images/menuprogress_3x.jpg 3x,
+                          images/menuprogress_2x.jpg 2x,
+                          images/menuprogress_1x.jpg 1x" />
+          <img src="images/menuprogress-320.jpg" alt="menu wireframes"/>
+          </picture>
       </div>
       <div class="casetext">
          <h3>WORK PROCESS</h3>
