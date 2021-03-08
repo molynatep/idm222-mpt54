@@ -50,7 +50,7 @@ body {
 }
 
 
-h1, h2{
+h1, h2, nav{
   font-family: 'bebas','montserrat',sans-serif;
   color: #3D405B;
 }
@@ -101,9 +101,7 @@ a:hover {
 
 /*nav style*/
 nav {
- color: #3D405B;
  height: 80px;
- font-family: 'bebas','montserrat', sans-serif;
  font-size: 1.4rem;
  position: fixed;
  width: 100%;
