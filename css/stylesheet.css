@@ -289,3 +289,10 @@ div.right p {
   bottom: 3.5rem;
 }
 
+/*VIDEOS*/
+@media screen and (min-width: 600px){
+  video {
+    width:600px;
+    height: 440px;
+  }
+}
