@@ -239,6 +239,13 @@ div.casetext > h3 {
 }
 
 /*PROJECT-ARROWS*/
+.arrow-l {
+  position: relative;
+  left: 10px;
+  width: 15px;
+  padding: 1rem 0;
+  top: 6.2rem;
+}
 
 div.left p {
   position: relative;
@@ -266,3 +273,9 @@ div.right p {
   font-size: 1rem;
   font-weight: bold;
 }
+
+.bottompad {
+  position: relative;
+  bottom: 3.5rem;
+}
+
