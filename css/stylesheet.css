@@ -238,6 +238,16 @@ div.casetext > h3 {
   margin-bottom: 1.1rem;
 }
 
+/*GIFTSTER*/
+.gif {
+  height: 480px;
+}
+
+@media screen and (min-width: 450px){
+  .gif {height:600px;}
+}
+
+
 /*PROJECT-ARROWS*/
 .arrow-l {
   position: relative;
