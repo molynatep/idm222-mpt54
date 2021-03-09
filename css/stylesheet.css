@@ -63,7 +63,7 @@ h1 {
 
 h2 {
   font-size: 1.9rem;
-  margin: 1.4rem 0 .2rem ;
+  margin: 1.4rem 0 0rem ;
 }
 
 h3 {
@@ -198,7 +198,7 @@ h4 {
 .resume,.about,.casestudy {
   margin: 0 2rem 1.8rem;
   padding: 5.5rem 0 0;
-  line-height: 2;
+  line-height: 1.7;
   max-width: 600px;
 }
 
@@ -295,4 +295,18 @@ div.right p {
     width:600px;
     height: 440px;
   }
+}
+
+/*ART PAGE*/
+
+.artgallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+  padding: 6rem 1rem 1rem;
+}
+
+.art {
+  width: 100%;
+  height: auto;
 }
