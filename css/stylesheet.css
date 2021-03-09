@@ -30,6 +30,7 @@
 
 html {
   -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+  box-sizing: border-box;
 }
 
 /*css reset and font stuff*/
@@ -109,18 +110,19 @@ nav {
  z-index: 99;
 }
 
-/*nav not stacking vertical*/
-ul.menu li {
+/*menu not stacking vertical*/
+ul#nav_list li {
   display: inline-flex; 
   margin-right: 12px;
   font-size: 1.7rem;
   line-height: 0;
 }
 
-ul.menu {
+ul#nav_list {
   float: right;
   padding: .3rem 1rem;
 }
+
 
 /*INTRO-FRONTPAGE*/
 
