@@ -111,14 +111,14 @@ nav {
 }
 
 /*menu not stacking vertical*/
-ul#nav_list li {
+ul.menu li {
   display: inline-flex; 
   margin-right: 12px;
   font-size: 1.7rem;
   line-height: 0;
 }
 
-ul#nav_list {
+ul.menu {
   float: right;
   padding: .3rem 1rem;
 }
