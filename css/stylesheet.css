@@ -53,7 +53,6 @@ body {
 
 h1, h2, nav{
   font-family: 'bebas','montserrat',sans-serif;
-  color: #3D405B;
 }
 
 h1 {
@@ -63,13 +62,24 @@ h1 {
 
 h2 {
   font-size: 1.9rem;
-  margin: 1.4rem 0 0rem ;
+  line-height: 1.2;
+  margin: 0;
 }
 
 h3 {
   font-weight: bold;
   font-size: 1.1rem;
   margin: .5rem 0 0;
+}
+
+h3.abouttext {
+  font-size: 200%;
+}
+
+@media screen and (min-width: 600px){
+  h3.abouttext {
+    font-size: 250%
+  }
 }
 p {
   margin: 0 0 1rem;
@@ -198,7 +208,7 @@ h4 {
 .resume,.about,.casestudy {
   margin: 0 2rem 1.8rem;
   padding: 5.5rem 0 0;
-  line-height: 1.7;
+  line-height: 2;
   max-width: 600px;
 }
 
@@ -214,6 +224,13 @@ div.center {
 .dl {
   width: 30px;
   padding: 1.9rem .5rem 0;
+}
+
+/*about pic*/
+
+.me {
+  border-radius: 150px;
+  padding: 1rem;
 }
 
 /*CASE STUDIES*/

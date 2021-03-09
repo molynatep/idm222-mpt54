@@ -25,8 +25,12 @@
      <h1>About Me</h1>
      </div>
      <div class="center">
-         <img class="me" src="images/me.jpg" alt="me">
-     </div>
+        <img class="me" srcset= "images/me_large.jpg 960w,
+                 images/me_medium.jpg 640w,
+                 images/me_small.jpg 320w"
+                 sizes="(min-width: 500px) 300px, 60vw"
+        src="images/me.jpg" alt="me"/>
+    </div>
          <h3 class="abouttext">
          Hi, I'm Molyna.
          </h3>
