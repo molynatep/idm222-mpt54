@@ -337,22 +337,23 @@ div.right p {
 }
 */
 
-.grid {
+.artgallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(510px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1em;
   padding: 6rem 1rem 1rem;
 }
-.img {
-  height: auto;
-}
 
-.cave {
-  width: 90vw;
-}
-
-@media screen and (min-width: 600px){
-  .cave {
-    width: 540px;
+@media screen and (min-width: 850px){
+  .artgallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 1em;
+    padding: 6rem 1rem 1rem;
   }
+}
+
+.art {
+  width: 100%;
+  height: auto;
 }
