@@ -260,9 +260,16 @@ div.casetext > h3 {
   height: 480px;
 }
 
-@media screen and (min-width: 450px){
-  .gif {height:600px;}
+@media screen and (min-width: 600px){
+  .gif {
+    height: 500px;
+  }
+  .gifs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
+
 
 
 /*PROJECT-ARROWS*/
@@ -307,23 +314,45 @@ div.right p {
 }
 
 /*VIDEOS*/
-@media screen and (min-width: 600px){
+@media screen and (min-width: 580px){
   video {
-    width:600px;
-    height: 440px;
+    width:550px;
+    height: 420px;
   }
 }
 
-/*ART PAGE*/
+.teado {
+  margin-top: 1rem;;
+}
 
-.artgallery {
+/*ART PAGE*/
+/*
+.grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 150px;
+  grid-auto-flow: row dense;
+  padding: 6rem 1rem 1rem;
+}
+*/
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(510px, 1fr));
   grid-gap: 1em;
   padding: 6rem 1rem 1rem;
 }
-
-.art {
-  width: 100%;
+.img {
   height: auto;
+}
+
+.cave {
+  width: 90vw;
+}
+
+@media screen and (min-width: 600px){
+  .cave {
+    width: 540px;
+  }
 }
