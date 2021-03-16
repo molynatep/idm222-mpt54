@@ -326,16 +326,7 @@ div.right p {
 }
 
 /*ART PAGE*/
-/*
-.grid {
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-auto-rows: 150px;
-  grid-auto-flow: row dense;
-  padding: 6rem 1rem 1rem;
-}
-*/
+
 
 .artgallery {
   display: grid;
@@ -344,12 +335,15 @@ div.right p {
   padding: 6rem 1rem 1rem;
 }
 
-@media screen and (min-width: 850px){
+@media screen and (min-width: 600px){
   .artgallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    grid-gap: 1em;
-    padding: 6rem 1rem 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .artgallery {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
   }
 }
 
