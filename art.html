@@ -19,20 +19,16 @@
     </nav>
   </header>
   <div class="artgallery">
-    <a target="_blank" href="images/art/portrait_large.jpg">
-    <img class="art"srcset="images/art/portrait_large.jpg 3x,
+    <img class="art" id="myImg" srcset="images/art/portrait_large.jpg 3x,
                             images/art/portrait_medium.jpg 2x,
                             images/art/portrait_small.jpg 1x"
                             src="images/art/portrait_small.jpg"
                             alt="me"/>  
-    </a>
-    <a target="_blank" href="images/art/ezra_large.jpg">
-      <img class="art"srcset="images/art/ezra_large.jpg 3x,
+      <img class="art" id="myImg2" srcset="images/art/ezra_large.jpg 3x,
                               images/art/ezra_medium.jpg 2x,
-                              images/art/ezra_small.jpg 1x"
+                             images/art/ezra_small.jpg 1x"
                               src="images/art/ezra_small.jpg"
                               alt="ezra"/>  
-      </a>
       <a target="_blank" href="images/art/cards_large.jpg">
         <img class="art"srcset="images/art/cards_large.jpg 3x,
                                 images/art/cards_medium.jpg 2x,
@@ -80,5 +76,11 @@
                                     alt="game gif"/>  
             </a>
   </div>
+  <div id="myModal" class="modal">
+    <span class="close">×</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
