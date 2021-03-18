@@ -475,6 +475,20 @@ div.right>p {
     font-size: 2.5rem;
     margin: 2.5rem 0 1.8rem;
   }
+
+  /*mei tea*/
+  .leftprogress {
+    grid-row-start: 3;
+  }
+  .menuprogress {
+    grid-column-start: 2;
+  }
+  .finaldesign {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  /*giftster*/
   .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -489,7 +503,6 @@ div.right>p {
   .taskflow2 {
     grid-column-start:2;
     grid-column-end: 3;
-    padding-top: 4rem;
   }
 
   .lefttext {
