@@ -276,37 +276,45 @@ div.casetext > h3 {
 
 
 /*PROJECT-ARROWS*/
-.arrow-l {
-  position: relative;
-  left: 10px;
-  width: 15px;
-  padding: 1rem 0;
-  top: 6.2rem;
+
+.left, .right {
+  opacity: .6;
 }
 
-div.left p {
-  position: relative;
-  display: inline-block;
-  top: 4.82rem;
-  left: 1rem;
+.left:hover, .right:hover {
+  opacity: 1;
+
+}
+
+.arrow-l {
+  position: fixed;
+  left: 20px;
+  width: 15px;
+  bottom: 2rem;
+}
+
+div.left>p {
+  position: fixed;
+  bottom: 1.1rem;
+  left: 3.1rem;
   font-size: 1rem;
   font-weight: bold;
 }
 
 .arrow-r {
-  position: relative;
+  position: fixed;
   float: right;
   right: 15px;
   width: 28px;
   padding: 1rem 0;
-  top: 1rem;
+  bottom: 1rem;
 }
 
-div.right p {
-  position: relative;
+div.right>p {
+  position: fixed;
   float: right;
-  top: 1.95rem;
-  right: 1rem;
+  bottom: 1.2rem;
+  right: 3rem;
   font-size: 1rem;
   font-weight: bold;
 }
@@ -432,6 +440,8 @@ div.right p {
   }
 }
 
+
+
 /*fix this so it doesn't repeat*/
 .tea {
   margin: 0 2rem 1.8rem;
@@ -444,7 +454,8 @@ div.right p {
 @media only screen and (min-width:1250px){
   .grid {
     display: grid;
-    grid-template-columns: 49vw 49vw;
+    grid-template-columns:  repeat(2, 1fr);
+    grid-auto-rows: 1fr;
     justify-items: center;
   }
   .casestudyheader {
@@ -452,25 +463,36 @@ div.right p {
     max-width: 600px;
     line-height: 1;
   }
-  .caseimage {
-    padding: 2rem 0;
-    height: 80vh
-  }
-  .caseimage2 {
-    height: 45vh;
-  }
   .oldmenu {
-    padding: 15vh;
+    margin: 8rem 0 0;
+    padding-right: 2rem;;
   }
   .casetext {
     font-size: 1.2rem;
-    margin-top: 8rem;
+    margin-top: 7rem;
   }
   div.casetext > h3 {
     font-size: 2.5rem;
     margin: 2.5rem 0 1.8rem;
   }
-  .arrow {
-    top: 500px;
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 85vh;
+    justify-items: center;
+    align-items: center;
+  }
+  .box1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .taskflow2 {
+    grid-column-start:2;
+    grid-column-end: 3;
+    padding-top: 4rem;
+  }
+
+  .lefttext {
+    grid-row-start: 4;
   }
 }
